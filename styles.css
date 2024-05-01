@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts') format('woff2')
+}
+
 
 *, *::before, *::after {box-sizing: border-box;}
 
@@ -7,7 +12,7 @@
 
 body{
     letter-spacing: -0.4px;
-    background: url(/images/thegradient.svg);
+    background: url(./images/thegradient.svg);
     background-size: cover, cover;
     margin: 0;
 }
