@@ -15,6 +15,7 @@
 @font-face {
     font-family: 'Audiowide';
     src: url('./fonts/Audiowide-Regular.ttf') format('woff2');
+    font-weight: regular;
 }
 
 
@@ -129,7 +130,7 @@ nav .logo {
 
 .intro .name {
     font-family: Audiowide;
-    font-weight: lighter;
+    font-weight: regular;
     color: #24C2C7;
     font-size: 90px;
     line-height: 0.8;
@@ -176,7 +177,7 @@ nav .logo {
 
 .highlights h1 {
     font-family: Audiowide;
-    font-weight: lighter;
+    font-weight: regular;
     font-size: 38px;
     color: #24C2C7;
     text-align: center;
@@ -363,7 +364,7 @@ footer .thankyou {
 }
 
 footer .myname {
-    font-family: Audiowide;
+    font-family: Audiowide Regular;
     font-size: 37px;
     line-height: 0.9;
     margin-bottom: 12px;
