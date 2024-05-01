@@ -2,56 +2,47 @@
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Thin.ttf') format('woff2');
     font-weight: 'thin';
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Light.ttf') format('woff2');
     font-weight: 'light';
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Regular.ttf') format('woff2');
     font-weight: 'regular';
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Medium.ttf') format('woff2');
     font-weight: 'medium';
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Bold.ttf') format('woff2');
     font-weight: 'bold';
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-SemiBold.ttf') format('woff2');
     font-weight: semibold;
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-ExtraBold.ttf') format('woff2');
     font-weight: 'extrabold';
-    font-style: normal;
 }
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins-Black.ttf') format('woff2');
     font-weight: 'black';
-    font-style: normal;
 }
 
 @font-face {
     font-family: 'Audiowide';
     src: url('./fonts/Audiowide-Regular.ttf') format('woff2');
     font-weight: regular;
-    font-style: normal;
 }
 
 
