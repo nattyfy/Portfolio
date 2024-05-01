@@ -15,6 +15,7 @@ body{
     background: url(./images/thegradient.svg);
     background-size: cover, cover;
     margin: 0;
+    font-family: 'Poppins';
 }
 
 ::selection {
