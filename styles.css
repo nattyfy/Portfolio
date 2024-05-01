@@ -12,6 +12,11 @@
     src: url('./fonts/Poppins-LightItalic.ttf') format('woff2');
 }
 
+@font-face {
+    font-family: 'Audiowide';
+    src: url('./fonts/Audiowide-Regular.ttf');
+}
+
 
 *, *::before, *::after {box-sizing: border-box;}
 
