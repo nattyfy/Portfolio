@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Audiowide';
-    src: url('./fonts/Audiowide-Regular.ttf');
+    src: url('./fonts/Audiowide-Regular.ttf') format('woff2');
 }
 
 
