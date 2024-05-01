@@ -115,7 +115,7 @@ a {
 }
 
 nav .logo {
-    font-family: 'Audiowide';
+    font-family: 'Audiowide regular';
     font-size: 21px;
     color: #24C2C7;
 }
@@ -153,8 +153,7 @@ nav .logo {
 }
 
 .intro .name {
-    font-family: Audiowide;
-    font-weight: regular;
+    font-family: 'Audiowide regular';
     color: #24C2C7;
     font-size: 90px;
     line-height: 0.8;
@@ -198,8 +197,7 @@ nav .logo {
 }
 
 .highlights h1 {
-    font-family: Audiowide;
-    font-weight: regular;
+    font-family: 'Audiowide regular';
     font-size: 38px;
     color: #24C2C7;
     text-align: center;
@@ -387,7 +385,7 @@ footer .thankyou {
 }
 
 footer .myname {
-    font-family: Audiowide Regular;
+    font-family: 'Audiowide Regular';
     font-size: 37px;
     line-height: 0.9;
     margin-bottom: 12px;
