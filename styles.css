@@ -1,15 +1,42 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('./fonts/Poppins-Black.ttf') format('woff2');
-    src: url('./fonts/Poppins-BlackItalic.ttf') format('woff2');
-    src: url('./fonts/Poppins-Bold.ttf') format('woff2');
-    src: url('./fonts/Poppins-BoldItalic.ttf') format('woff2');
-    src: url('./fonts/Poppins-ExtraBold.ttf') format('woff2');
-    src: url('./fonts/Poppins-ExtraBoldItalic.ttf') format('woff2');
-    src: url('./fonts/Poppins-ExtraLight.ttf') format('woff2');
-    src: url('./fonts/Poppins-Italic.ttf') format('woff2');
+    src: url('./fonts/Poppins-Thin.ttf') format('woff2');
+    font-weight: 'thin';
+}
+@font-face {
+    font-family: 'Poppins';
     src: url('./fonts/Poppins-Light.ttf') format('woff2');
-    src: url('./fonts/Poppins-LightItalic.ttf') format('woff2');
+    font-weight: 'light';
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.ttf') format('woff2');
+    font-weight: 'regular';
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Medium.ttf') format('woff2');
+    font-weight: 'medium';
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Bold.ttf') format('woff2');
+    font-weight: 'bold';
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-SemiBold.ttf') format('woff2');
+    font-weight: semibold;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraBold.ttf') format('woff2');
+    font-weight: 'extrabold';
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Black.ttf') format('woff2');
+    font-weight: 'black';
 }
 
 @font-face {
@@ -30,7 +57,6 @@ body{
     background: url(./images/thegradient.svg);
     background-size: cover, cover;
     margin: 0;
-amily: 'Poppins';
 }
 
 ::selection {
@@ -51,8 +77,7 @@ nav li{
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'Poppins regular';
     font-size: 17px;
     margin-right: 35px;
 }
@@ -79,8 +104,7 @@ a {
     background-color: #24C2C7;
     padding: 5px 25px;
     border-radius: 8px;
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'Poppins medium';
     font-size: 17px;
     transition: 500ms;
 }
@@ -145,8 +169,7 @@ nav .logo {
 
 .intro .details {
     max-width: 800px;
-    font-family: 'Poppins';
-    font-weight: 300;
+    font-family: 'Poppins light';
     font-size: 19px;
     color: rgb(207, 205, 205);
 }
@@ -161,8 +184,7 @@ nav .logo {
     padding: 5px 25px;
     margin-top: 30px;
     border-radius: 8px;
-    font-family: 'Poppins';
-    font-weight: 500;
+    font-family: 'Poppins medium';
     font-size: 19px;
     transition: 300ms;
 }
@@ -251,7 +273,7 @@ nav .logo {
 
 
 .imgcon a {
-    font-family: 'Poppins';
+    font-family: 'Poppins Regular';
     font-size: 22px;
     position: relative;
     top: 5%;
@@ -310,8 +332,7 @@ nav .logo {
 .highlights .showmore a {
     text-decoration: none;
     color: #e6e6e6;
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'Poppins regular';
     font-size: 18px;
     margin-bottom: 25px;
     padding: 5px 90px;
@@ -330,8 +351,7 @@ nav .logo {
 }
 
 footer {
-    font-family: 'Poppins';
-    font-weight: 300;
+    font-family: 'Poppins light';
     font-size: 19px;
     display: flex;
     flex-direction: column;
@@ -354,9 +374,12 @@ footer .middle {
 
 footer .quote {
     text-align: center;
+    font-family: 'poppins medium';
+    font-size: 21px;
 }
 footer .quote span{
     font-size: 15px;
+    font-family: 'Poppins light';
 }
 
 footer .thankyou {
