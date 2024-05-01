@@ -1,6 +1,15 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('./fonts') format('woff2')
+    src: url('./fonts/Poppins-Black.ttf') format('woff2');
+    src: url('./fonts/Poppins-BlackItalic.ttf') format('woff2');
+    src: url('./fonts/Poppins-Bold.ttf') format('woff2');
+    src: url('./fonts/Poppins-BoldItalic.ttf') format('woff2');
+    src: url('./fonts/Poppins-ExtraBold.ttf') format('woff2');
+    src: url('./fonts/Poppins-ExtraBoldItalic.ttf') format('woff2');
+    src: url('./fonts/Poppins-ExtraLight.ttf') format('woff2');
+    src: url('./fonts/Poppins-Italic.ttf') format('woff2');
+    src: url('./fonts/Poppins-Light.ttf') format('woff2');
+    src: url('./fonts/Poppins-LightItalic.ttf') format('woff2');
 }
 
 
@@ -15,7 +24,7 @@ body{
     background: url(./images/thegradient.svg);
     background-size: cover, cover;
     margin: 0;
-    font-family: 'Poppins';
+amily: 'Poppins';
 }
 
 ::selection {
