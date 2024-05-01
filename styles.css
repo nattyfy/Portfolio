@@ -36,7 +36,7 @@ nav li{
     list-style: none;
     display: inline-block;
     font-family: 'Poppins';
-    font-weight: 900;
+    font-weight: 400;
     font-size: 17px;
     margin-right: 35px;
 }
@@ -63,7 +63,8 @@ a {
     background-color: #24C2C7;
     padding: 5px 25px;
     border-radius: 8px;
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 17px;
     transition: 500ms;
 }
@@ -128,7 +129,8 @@ nav .logo {
 
 .intro .details {
     max-width: 800px;
-    font-family: Poppins Regular;
+    font-family: 'Poppins';
+    font-weight: 300;
     font-size: 19px;
     color: rgb(207, 205, 205);
 }
@@ -143,7 +145,8 @@ nav .logo {
     padding: 5px 25px;
     margin-top: 30px;
     border-radius: 8px;
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
+    font-weight: 500;
     font-size: 19px;
     transition: 300ms;
 }
@@ -232,7 +235,7 @@ nav .logo {
 
 
 .imgcon a {
-    font-family: Poppins Regular;
+    font-family: 'Poppins';
     font-size: 22px;
     position: relative;
     top: 5%;
@@ -291,7 +294,8 @@ nav .logo {
 .highlights .showmore a {
     text-decoration: none;
     color: #e6e6e6;
-    font-family: Poppins Regular;
+    font-family: 'Poppins';
+    font-weight: 400;
     font-size: 18px;
     margin-bottom: 25px;
     padding: 5px 90px;
@@ -310,7 +314,8 @@ nav .logo {
 }
 
 footer {
-    font-family: Poppins light;
+    font-family: 'Poppins';
+    font-weight: 300;
     font-size: 19px;
     display: flex;
     flex-direction: column;
