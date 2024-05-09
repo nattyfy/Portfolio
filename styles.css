@@ -9,7 +9,7 @@ body{
     background: url(./images/backgroundimg.png);
     background-size: cover, cover;
     margin: 0;
-    font-family: 'Poppins', sans-serif !important ;
+    /* font-family: sans-serif; */
 
 }
 
@@ -28,6 +28,8 @@ nav {
     padding: 5px 9%;
 }
 nav li{
+    font-family: 'Poppins';
+    font-weight: 300;
     text-decoration: none;
     list-style: none;
     display: inline-block;
@@ -53,6 +55,8 @@ a {
 }
 
 .button1 {
+    font-family: 'Poppins';
+    font-weight: 500;
     color: #07151F;
     background-color: #24C2C7;
     padding: 5px 25px;
@@ -76,6 +80,7 @@ font-family: 'Audiowide';
     /* background-color: #07151F; */
     color: rgb(241, 241, 241);
     display: flex;
+    flex-wrap: wrap-reverse;
     /* align-items: center; */
     padding-left: 9%;
     padding-right: 9%;
@@ -119,12 +124,16 @@ font-family: 'Audiowide';
 }
 
 .intro .details {
+    font-family: 'Poppins';
+    font-weight: 300;
     max-width: 800px;
     font-size: 19px;
     color: rgb(207, 205, 205);
 }
 
 .button2 {
+    font-family: 'Poppins';
+    font-weight: 500;
     position: absolute;
     contain:content;
     text-decoration: none;
@@ -221,6 +230,8 @@ font-family: 'Audiowide';
 
 
 .imgcon a {
+    font-family: 'Poppins';
+    font-weight: 300;
     font-size: 22px;
     position: relative;
     top: 5%;
@@ -262,6 +273,8 @@ font-family: 'Audiowide';
 }
 
 .highlights .showmore {
+    font-family: 'Poppins';
+    font-weight: 300;
     display: flex;
     position: relative;
     z-index: 2;
@@ -297,6 +310,7 @@ font-family: 'Audiowide';
 }
 
 footer {
+    font-family: 'Poppins';
     font-size: 19px;
     display: flex;
     flex-direction: column;
@@ -312,8 +326,11 @@ footer {
 
 footer .middle {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     /* border: solid red; */
 }
 
@@ -324,7 +341,7 @@ footer .quote {
 }
 footer .quote span{
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 footer .thankyou {
@@ -344,4 +361,20 @@ footer .myname span {
 
 footer .contactsandicons {
     text-align: right;
+}
+
+
+
+@media (max-width: 960px) {
+    .intro {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .button2 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    
 }
