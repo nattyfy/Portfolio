@@ -43,6 +43,7 @@ nav a{
     transition: 1100ms;
 }
 
+
 nav .navitems a:hover {
     border-bottom: solid 3px #24C2C7;
     transition: 100ms;
