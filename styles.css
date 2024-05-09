@@ -376,5 +376,10 @@ footer .contactsandicons {
         position: relative;
         justify-content: center;
     }
+
+    .intro img {
+        margin-bottom: -70px;
+        scale: 1;
+    }
     
 }
