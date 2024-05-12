@@ -395,6 +395,18 @@ footer .icons:hover{
         justify-items: center;
     }
 
+    .intro .name {
+        font-family: 'Audiowide';
+        color: #24C2C7;
+        font-size: 70px;
+        line-height: 0.8;
+        margin-bottom: 30px;
+    }
+
+    .intro .name span {
+        font-size: 54px
+    };
+
     .button2 {
         max-width: 90%;
         display: flex;
