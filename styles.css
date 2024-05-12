@@ -398,13 +398,13 @@ footer .icons:hover{
     .intro .name {
         font-family: 'Audiowide';
         color: #24C2C7;
-        font-size: 70px;
+        font-size: 60px;
         line-height: 0.8;
         margin-bottom: 30px;
     }
 
     .intro .name span {
-        font-size: 54px
+        font-size: 46px
     };
 
     .button2 {
