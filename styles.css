@@ -95,7 +95,6 @@ font-family: 'Audiowide';
 
 .intro .left {
     /* border: solid red; */
-    contain: content;
     margin-top: 120px;
     flex: 1;
 }
