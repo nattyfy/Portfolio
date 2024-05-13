@@ -89,11 +89,13 @@ font-family: 'Audiowide';
     padding-right: 9%;
     padding-top: 150px;
     margin-bottom: -40px;
+    overflow: hidden;
     /* border: solid 2px red; */
 }
 
 .intro .left {
     /* border: solid red; */
+    contain: content;
     margin-top: 120px;
     flex: 1;
 }
@@ -102,7 +104,6 @@ font-family: 'Audiowide';
     flex: 0;
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
     /* border: solid red; */
 }
 
@@ -139,9 +140,8 @@ font-family: 'Audiowide';
     font-family: 'Poppins';
     font-weight: 500;
     position: absolute;
-    contain:content;
-    text-decoration: none;
-    display: inline-block;
+    /* contain:content; */
+    /* display: flex; */
     color: #07151F;
     background-color: #24C2C7;
     padding: 5px 25px;
@@ -157,6 +157,10 @@ font-family: 'Audiowide';
     border-bottom: solid 4px #796a2d;
     padding-bottom: 3px;
     transform: scale(1.02);
+}
+
+.button1:active, .button2:active {
+    transform: translateY(3px);
 }
 
 .highlights h1 {
@@ -189,9 +193,9 @@ font-family: 'Audiowide';
     flex: 1 1;
     justify-content: center;
     align-items: center;
-    min-width: 350px;
-    max-width: 700px;
-    height: 400px;
+    min-width: 300px;
+    max-width: 4000px;
+    height: 300px;
     margin: 0.8%;
     text-align: center;
     overflow: hidden;
@@ -329,7 +333,7 @@ footer {
 
 footer .quote {
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 21px;
 }
 
@@ -366,13 +370,17 @@ footer .myname span {
 }
 
 footer .contactsandicons {
-    text-align: center;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: right;
     line-height:1.5;
 }
 
 footer .iconscont {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 footer .icons{
@@ -405,13 +413,30 @@ footer .icons:hover{
 
     .intro .name span {
         font-size: 46px
-    };
+    }
 
     .button2 {
-        max-width: 90%;
-        display: flex;
         position: relative;
+        text-align: center;
+
+    }
+
+    footer .contactsandicons {
+        text-align: center;
+        line-height:1.5;
+    }
+    
+    footer .iconscont {
         justify-content: center;
+    }
+
+    .highlights h1 {
+        font-family: 'Audiowide';
+        font-size: 30px;
+        color: #24C2C7;
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 35px;
     }
 
     .intro img {
