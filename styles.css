@@ -10,16 +10,19 @@ a {
 
 body{
     letter-spacing: -0.4px;
-    background: url(./images/backgroundimg.png);
-    background-size: cover, cover;
     margin: 0;
-    /* font-family: sans-serif; */
-
+    background: url(./images/backgroundimg.png),
+                linear-gradient(to top right, #07151F, #07151F, #2A5C8F);
+    background-size: contain, none;
+    /* background-position:top; */
+    background-repeat: no-repeat;
 }
+
+
 
 ::selection {
     background-color: #E8CA55;
-    color: #07151F;
+    color: #515a60;
 }
 nav {
     width: 100%;
@@ -238,7 +241,7 @@ font-family: 'Audiowide';
 
 .imgcon a {
     font-family: 'Poppins';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 22px;
     position: relative;
     top: 5%;
@@ -285,13 +288,13 @@ font-family: 'Audiowide';
     display: flex;
     position: relative;
     z-index: 2;
-    margin-top: -190px;
-    height: 190px;
+    margin-top: -140px;
+    height: 140px;
     background-image: none;
     background:linear-gradient(to top, #07151F, #07151f00);
     justify-content: center;
     align-items:end;
-    /* border: #24C2C7 solid; */
+    /* border: red solid; */
     margin-left: 9%;
     margin-right: 9%;
 }
@@ -405,13 +408,13 @@ footer .icons:hover{
     .intro .name {
         font-family: 'Audiowide';
         color: #24C2C7;
-        font-size: 60px;
+        font-size: 55px;
         line-height: 0.8;
         margin-bottom: 30px;
     }
 
     .intro .name span {
-        font-size: 46px
+        font-size: 4px
     }
 
     .button2 {
