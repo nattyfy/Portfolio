@@ -327,10 +327,12 @@ footer {
     /* text-align: center; */
     color: #e6e6e6;
     width: 100%;
-
+    margin-top: 50px;
     padding: 5px 9% 40px 9% ;
     background-color: #07151F;
     /* border: solid red; */
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.412));
+
 }
 
 footer .quote {
@@ -414,7 +416,7 @@ footer .icons:hover{
     }
 
     .intro .name span {
-        font-size: 4px
+        font-size: 42px
     }
 
     .button2 {
