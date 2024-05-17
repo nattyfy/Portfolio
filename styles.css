@@ -22,7 +22,7 @@ body{
 
 ::selection {
     background-color: #E8CA55;
-    color: #515a60;
+    color: #07151F;
 }
 nav {
     width: 100%;
@@ -195,7 +195,7 @@ font-family: 'Audiowide';
     flex: 1 1;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    min-width: 350px;
     max-width: 4000px;
     height: 300px;
     margin: 0.8%;
@@ -390,7 +390,7 @@ footer .iconscont {
 footer .icons{
     width: 45px;
     padding: 8px;
-    transition: 150ms;
+    transition: 450ms;
 }
 
 footer .icons:hover{
@@ -398,8 +398,20 @@ footer .icons:hover{
     /* border-radius: 6px; */
     scale: 1.2;
     filter: drop-shadow(0 0 8px #24C2C7);
-    transition: 40ms;
+    transition: 200ms;
 }
+
+footer .emailorphone {
+    transition: 200ms;
+}
+
+footer .emailorphone:hover {
+    scale: 1.05;
+    filter: drop-shadow(0 0 8px #24C2C7);
+    transition: 100ms;
+}
+
+
 
 @media (max-width: 860px) {
     .intro {
@@ -410,13 +422,13 @@ footer .icons:hover{
     .intro .name {
         font-family: 'Audiowide';
         color: #24C2C7;
-        font-size: 55px;
+        font-size:14vmin;
         line-height: 0.8;
         margin-bottom: 30px;
     }
 
     .intro .name span {
-        font-size: 42px
+        font-size: 10.8vmin;
     }
 
     .button2 {
