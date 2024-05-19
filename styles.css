@@ -78,7 +78,36 @@ a {
 nav .logo {
 font-family: 'Audiowide';
     font-size: 21px;
+    z-index: 999;
     color: #24C2C7;
+}
+
+.hamburger {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    transition: 1s ease;
+}
+.hamburger .one { top: 0; transition: 200ms;}
+.hamburger .two { top: 8px; }
+.hamburger .three { top: 16px; transition: 200ms;}
+.close .one {
+    transform: translateY(8px) rotate(45deg);
+    transition: 200ms;
+}
+.close .two {
+    opacity: 0;
+}
+.close .three {
+    transform: translateY(-8px) rotate(-45deg);
+    transition: 200ms;
 }
 
 .intro {
@@ -434,6 +463,7 @@ footer .emailorphone:hover {
         flex-direction: column;
         align-items: center;
         padding: 5px;
+        z-index: 99;
     }
     
     .hamburger div {
@@ -442,6 +472,7 @@ footer .emailorphone:hover {
         width: 22px;
         height: 2.5px;
         margin: 2px;
+        transition: 50ms;
     }
 
     .navitems.show {
@@ -457,30 +488,57 @@ footer .emailorphone:hover {
         margin: 10px 0;
     }
     
-    .navitems a {
-        width: 100%;
-        /* display: block; */
-        text-align: center;
-        padding: 5px;
+
+    .contact-item a {
+        padding: 5px 25px;
     }
-    .button1 {
-        margin-top: 10px;
+
+
+
+
+    @keyframes slideIn {
+        from {
+            top: -100%;
+        }
+        to {
+            top: 60px;
+        }
     }
+    
+    @keyframes slideOut {
+        from {
+            top: 60px; /* Start position: just below the navbar */
+        }
+        to {
+            top: -100%; /* End position: above the viewport */
+        }
+    }
+    
+    
+
 
     .navitems-wrapper {
         display: none;
         width: 100%;
         background-color: #07151F;
         position: absolute;
-        top: 60px;
+        top: -100%; /* Initially above the viewport */
         left: 0;
         padding: 10px 0;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        transition: opacity 300ms;
     }
+    
+
+
 
     .navitems-wrapper.show {
         display: block;
+        animation: slideIn 0.3s ease forwards;
     }
+    
+    
 
     .navitems {
         display: flex;
