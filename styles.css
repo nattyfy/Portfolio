@@ -31,7 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #07151F;
+    background-color: #07151f;
     padding: 5px 9%;
 }
 nav li{
@@ -109,6 +109,8 @@ font-family: 'Audiowide';
     transform: translateY(-8px) rotate(-45deg);
     transition: 200ms;
 }
+
+
 
 .intro {
     /* background-color: #07151F; */
@@ -281,6 +283,7 @@ font-family: 'Audiowide';
     opacity: 0;
     transition: 400ms;
 }
+
 
 .imgcon:hover a {
     visibility: visible;
@@ -463,7 +466,7 @@ footer .emailorphone:hover {
         flex-direction: column;
         align-items: center;
         padding: 5px;
-        z-index: 99;
+        z-index: 999;
     }
     
     .hamburger div {
@@ -573,7 +576,7 @@ footer .emailorphone:hover {
     footer .contactsandicons {
         text-align: center;
         line-height:1.8;
-    }
+    } 
     
     footer .iconscont {
         justify-content: center;
