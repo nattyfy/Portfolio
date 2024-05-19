@@ -428,18 +428,65 @@ footer .emailorphone:hover {
 
     .hamburger {
         /* border: solid red; */
-        width: 50px;
         display: flex;
+        cursor: pointer;
+        width: 50px;
         flex-direction: column;
+        align-items: center;
         padding: 5px;
     }
     
     .hamburger div {
         background-color: #24C2C7;
         border-radius: 5px;
-        width: 30px;
-        height: 3px;
-        margin: 3px;
+        width: 22px;
+        height: 2.5px;
+        margin: 2px;
+    }
+
+    .navitems.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+    
+    .navitems li {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .navitems a {
+        width: 100%;
+        /* display: block; */
+        text-align: center;
+        padding: 5px;
+    }
+    .button1 {
+        margin-top: 10px;
+    }
+
+    .navitems-wrapper {
+        display: none;
+        width: 100%;
+        background-color: #07151F;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 0;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navitems-wrapper.show {
+        display: block;
+    }
+
+    .navitems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .intro {
@@ -488,6 +535,7 @@ footer .emailorphone:hover {
         margin-bottom: -110px;
         scale: 1;
     }
+
 
     footer .middle {
         display: flex;
