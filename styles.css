@@ -37,7 +37,6 @@ nav {
 nav li{
     font-family: 'Poppins';
     font-weight: 400;
-    text-decoration: none;
     list-style: none;
     display: inline-block;
     font-size: 17px;
@@ -414,6 +413,15 @@ footer .emailorphone:hover {
 
 
 @media (max-width: 860px) {
+
+    .navitems {
+        display:none;
+    }
+
+    nav {
+        padding: 20px 9%;
+    }
+
     .intro {
         flex-direction: column-reverse;
         justify-items: center;
@@ -439,7 +447,7 @@ footer .emailorphone:hover {
 
     footer .contactsandicons {
         text-align: center;
-        line-height:1.5;
+        line-height:1.8;
     }
     
     footer .iconscont {
