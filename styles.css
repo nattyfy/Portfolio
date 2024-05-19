@@ -410,6 +410,10 @@ footer .emailorphone:hover {
     transition: 100ms;
 }
 
+.hamburger {
+    display: none;
+}
+
 
 
 @media (max-width: 860px) {
@@ -420,6 +424,22 @@ footer .emailorphone:hover {
 
     nav {
         padding: 20px 9%;
+    }
+
+    .hamburger {
+        /* border: solid red; */
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .hamburger div {
+        background-color: #24C2C7;
+        border-radius: 5px;
+        width: 30px;
+        height: 4px;
+        margin: 3px;
     }
 
     .intro {
