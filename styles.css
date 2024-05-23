@@ -467,13 +467,14 @@ footer .emailorphone:hover {
         cursor: pointer;
         width: 50px;
         flex-direction: column;
-        align-items: center;
-        padding: 5px;
+        align-items: end;
+        padding: 0px;
         z-index: 999;
     }
     
     .hamburger div {
         background-color: #24C2C7;
+        margin-right: auto;
         border-radius: 5px;
         width: 22px;
         height: 2.5px;
