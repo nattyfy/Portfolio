@@ -148,7 +148,7 @@ font-family: 'Audiowide';
     max-width: 600px;
     min-width: 200px;
     margin-top: -20px;
-    /* scale: 1.1; */
+    scale: 1.1;
 }
 
 .intro .name {
@@ -268,7 +268,7 @@ font-family: 'Audiowide';
     transform: scale(1.1);
     opacity: 40%;
     filter: blur(5px);
-    transition: ease-out 80ms;
+    transition: ease-out 100ms;
 }
 
 
@@ -308,12 +308,12 @@ font-family: 'Audiowide';
 
 .imgcon a span {
     font-size: 0px;
-    transition: 100ms;
+    transition: 150ms;
 }
 
 .imgcon a:hover span {
     font-size: 22px;
-    transition: 100ms;
+    transition: 150ms;
 }
 
 .highlights .showmore {
