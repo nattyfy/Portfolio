@@ -176,9 +176,7 @@ font-family: 'Audiowide';
 .button2 {
     font-family: 'Poppins';
     font-weight: 500;
-    position: absolute;
-    /* contain:content; */
-    /* display: flex; */
+    display: inline-block;
     color: #07151F;
     background-color: #24C2C7;
     padding: 5px 25px;
@@ -573,9 +571,9 @@ footer .emailorphone:hover {
     }
 
     .button2 {
-        position: relative;
-        text-align: center;
-
+        /* position: relative; */
+        /* text-align: center; */
+        margin-bottom: 50px;
     }
 
     footer .contactsandicons {
@@ -615,4 +613,17 @@ footer .emailorphone:hover {
         gap: 30px;
     }
     
+
+}
+
+@media (max-width: 420px) {
+    .imgcon {
+        min-width: 200px;
+        height: 200px;
+    }
+
+    .button2 {
+        display: flex;
+        justify-content: center;
+    }
 }
